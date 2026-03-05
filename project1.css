@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: honeydew;
+}
+
+/* header */
+header {
+    background-color: lavender;
+    text-align: center;
+    padding: 20px;
+    color: purple;
+}
+
+/* nav */
+nav {
+    background-color: honeydew;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.active {
+    background-color: lavenderblush;
+}
+
+nav ul li {
+    float: left;
+}
+
+.login {
+    float: right;
+}
+
+nav ul li:hover {
+    background-color: lavender;
+}
+
+/* home */
+.homeimg img {
+    width: 100%;
+}
+
+/* section 1 */
+.imgdiv {
+    width: 50%;
+    float: left;
+} 
+
+.imgdiv img {
+    width: 75%;
+    margin: 100px;
+}
+
+.textdiv {
+    width: 50%;
+    float: left;
+    padding: 80px;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    color: purple;
+    margin-bottom: 30px;
+}
+
+.textdiv p {
+ text-align: justify;
+ font-size: 18px;
+ word-spacing: 10px;
+ line-height: 40px;
+ margin: auto;
+}
+
+section {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* footer */
+footer {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.footertext {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.footericon i {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.fa-at, .fa-square-youtube  {
+    color: red;
+}
+
+.fa-telegram, .fa-twitter {
+   color: blue;
+}
+
+.belle {
+    color: purple;
+    font-size: larger;
+}
